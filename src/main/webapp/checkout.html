@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+    <title>Home</title>
+	</head>
+  <body class="lift:content_id=main">
+	<div id="main" class="lift:surround?with=default;at=content">
+	<script type="text/javascript">
+	console.log("running javascript")
+	$(document).ready(function() {
+		console.log("attaching accordian");
+		$("#accordion").accordion();
+	});
+	</script>	
+	<div id="accordion">
+    <h3><a href="#">Delivery address</a></h3>
+    <div>
+		<form class="lift:form.ajax">
+			<div class="lift:DeliveryAddressController">
+			<div><label id="title_label" class="span-4">Title:</label> <input id="title" text="title" type="text" value="" /></div>			
+			<div><label id="first_name_label" class="span-4">First name:</label> <input id="first_name" type="text" value="" /></div>
+			<div><label id="last_name_label" class="span-4">Last name:</label> <input id="last_name" type="text" value="" /></div>
+			<div><label id="address_line_1_label" class="span-4">Address line 1:</label> <input id="address_line_1" type="text" value="" /></div>
+			<div><label id="address_line_2_label" class="span-4">Address line 2:</label> <input id="address_line_2" type="text" value="" /></div>
+			<div><label id="town_label" class="span-4">Town:</label> <input id="town" type="text" value="" /></div>
+			<div><label id="country_label" class="span-4">County:</label> <input id="county" type="text" value="" /></div>
+			<div><label id="postcodelabel" class="span-4">Postcode:</label> <input id="postcode" type="text" value="" /></div>
+			<div><label id="country_label" class="span-4">Country:</label><select id="country"></select></div>
+			<input type="submit" value="Use this delivery address"></input>
+			</div>
+		</form>
+	</div>
+	<h3><a href="#">Shipping</a></h3>
+	<div>
+		<form class="lift:form.ajax">
+			<div class="lift:ShippingController">
+				<div><label id="shipping_label" class="span-4">Select shipping option:</label><select id="shipping_select"></select></div>
+				<input id="shipping_form_input" type="submit" value="Use this shipping option"></input>
+			</div>
+		</form>
+	</div>
+	<h3><a href="#">Payment</a></h3>
+	<div>
+		<form class="lift:PaymentController">
+			<div><label id="title_label" class="span-4">Title:</label> <input id="payment_title" text="title" type="text" value="" /></div>			
+			<div><label id="payment_first_name_label" class="span-4">First name:</label> <input id="payment_first_name" type="text" value="" /></div>
+			<div><label id="payment_last_name_label" class="span-4">Last name:</label> <input id="payment_last_name" type="text" value="" /></div>
+			<div><label id="payment_address_line_1_label" class="span-4">Address line 1:</label> <input id="payment_address_line_1" type="text" value="" /></div>
+			<div><label id="payment_address_line_2_label" class="span-4">Address line 2:</label> <input id="payment_address_line_2" type="text" value="" /></div>
+			<div><label id="payment_town_label" class="span-4">Town:</label> <input id="payment_town" type="text" value="" /></div>
+			<div><label id="payment_county_label" class="span-4">County:</label> <input id="payment_county" type="text" value="" /></div>
+			<div><label id="payment_postcode_label" class="span-4">Postcode:</label> <input id="payment_postcode" type="text" value="" /></div>
+			<div><label id="payment_country_label" class="span-4">Country:</label><select id="payment_country"></select></div>
+			<div><label id="card_type_label" class="span-4">Card type:</label><select id="card_type"></select></div>
+			<div><label id="card_number_label" class="span-4">Card number:</label><input id="card_number"/></div>
+			<div><label id="card_expiry_date_label" class="span-4">Expiry date:</label><input id="card_expiry_date_year"/>/<input id="card_expiry_date_month"/></div>
+			<div><label id="card_security_number_label" class="span-4">Security code:</label><input id="card_security_number"/></div>
+			<div><input id="payment_form_input" type="submit" value="Place order"></input></div>
+		</form>
+	</div>
+	</div>
+	</body>
+</html>

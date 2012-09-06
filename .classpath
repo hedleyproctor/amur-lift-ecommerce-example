@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/test/scala"/>
+	<classpathentry kind="src" path="src/main/scala"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Hedley/.ivy2/cache/net.liftweb/lift-common_2.8.1/jars/lift-common_2.8.1-2.4-M4.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Hedley/.ivy2/cache/net.liftweb/lift-webkit_2.8.1/jars/lift-webkit_2.8.1-2.4-M4.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Hedley/.ivy2/cache/net.liftweb/lift-util_2.8.1/jars/lift-util_2.8.1-2.4-M4.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Hedley/.ivy2/cache/net.liftweb/lift-record_2.8.1/jars/lift-record_2.8.1-2.4-M4.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Hedley/.ivy2/cache/net.liftweb/lift-squeryl-record_2.8.1/jars/lift-squeryl-record_2.8.1-2.4-M4.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Hedley/.ivy2/cache/com.weiglewilczek.slf4s/slf4s_2.8.1/jars/slf4s_2.8.1-1.0.7.jar"/>
+	<classpathentry kind="lib" path="project/boot/scala-2.8.1/lib/scala-compiler.jar"/>
+	<classpathentry kind="lib" path="project/boot/scala-2.8.1/lib/scala-library.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Hedley/.ivy2/cache/net.liftweb/lift-json_2.8.1/jars/lift-json_2.8.1-2.4-M4.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Hedley/.ivy2/cache/org.scalatest/scalatest_2.8.1/jars/scalatest_2.8.1-1.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Hedley/.ivy2/cache/org.mortbay.jetty/servlet-api/jars/servlet-api-2.5-20081211.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Hedley/.ivy2/cache/org.squeryl/squeryl_2.8.1/jars/squeryl_2.8.1-0.9.4.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Hedley/.ivy2/cache/org.mortbay.jetty/jetty/jars/jetty-6.1.26.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Hedley/.ivy2/cache/org.mortbay.jetty/jetty-util/jars/jetty-util-6.1.26.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
